@@ -6,23 +6,43 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		92B4B31F2DB67C09009A0DF1 /* WebSockets_Vapor_Leaf_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4B31E2DB67C09009A0DF1 /* WebSockets_Vapor_Leaf_DemoApp.swift */; };
+		92B4B3212DB67C09009A0DF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4B3202DB67C09009A0DF1 /* ContentView.swift */; };
+		92B4B3232DB67C0A009A0DF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B4B3222DB67C0A009A0DF1 /* Assets.xcassets */; };
+		92B4B32B2DB67C84009A0DF1 /* Vapor in Frameworks */ = {isa = PBXBuildFile; productRef = 92B4B32A2DB67C84009A0DF1 /* Vapor */; };
+		92B4B32E2DB67CC9009A0DF1 /* Leaf in Frameworks */ = {isa = PBXBuildFile; productRef = 92B4B32D2DB67CC9009A0DF1 /* Leaf */; };
+		92B4B3302DB67D0D009A0DF1 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4B32F2DB67D0D009A0DF1 /* Car.swift */; };
+		92B4B3342DB67DAE009A0DF1 /* CarShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4B3332DB67DAE009A0DF1 /* CarShop.swift */; };
+		92B4B33E2DB67EA0009A0DF1 /* WebServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4B33B2DB67EA0009A0DF1 /* WebServer.swift */; };
+		92B4B33F2DB67EA0009A0DF1 /* WebSocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4B33D2DB67EA0009A0DF1 /* WebSocketManager.swift */; };
+		92B4B3402DB67EA0009A0DF1 /* WebRouteCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4B33C2DB67EA0009A0DF1 /* WebRouteCollection.swift */; };
+		92B4B3432DB67EDD009A0DF1 /* index.leaf in Resources */ = {isa = PBXBuildFile; fileRef = 92B4B3422DB67EDD009A0DF1 /* index.leaf */; };
+		92B4B3462DB69215009A0DF1 /* Car+WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B4B3452DB69215009A0DF1 /* Car+WebSocket.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		92B4B31B2DB67C09009A0DF1 /* WebSockets Vapor Leaf Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WebSockets Vapor Leaf Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92B4B31E2DB67C09009A0DF1 /* WebSockets_Vapor_Leaf_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSockets_Vapor_Leaf_DemoApp.swift; sourceTree = "<group>"; };
+		92B4B3202DB67C09009A0DF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		92B4B3222DB67C0A009A0DF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92B4B32F2DB67D0D009A0DF1 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		92B4B3332DB67DAE009A0DF1 /* CarShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarShop.swift; sourceTree = "<group>"; };
+		92B4B33B2DB67EA0009A0DF1 /* WebServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServer.swift; sourceTree = "<group>"; };
+		92B4B33C2DB67EA0009A0DF1 /* WebRouteCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRouteCollection.swift; sourceTree = "<group>"; };
+		92B4B33D2DB67EA0009A0DF1 /* WebSocketManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketManager.swift; sourceTree = "<group>"; };
+		92B4B3422DB67EDD009A0DF1 /* index.leaf */ = {isa = PBXFileReference; lastKnownFileType = text; path = index.leaf; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.html; };
+		92B4B3452DB69215009A0DF1 /* Car+WebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+WebSocket.swift"; sourceTree = "<group>"; };
+		92B4B3472DB69FB3009A0DF1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		92B4B31D2DB67C09009A0DF1 /* WebSockets Vapor Leaf Demo */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "WebSockets Vapor Leaf Demo";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		92B4B3182DB67C09009A0DF1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B4B32E2DB67CC9009A0DF1 /* Leaf in Frameworks */,
+				92B4B32B2DB67C84009A0DF1 /* Vapor in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,7 +52,8 @@
 		92B4B3122DB67C09009A0DF1 = {
 			isa = PBXGroup;
 			children = (
-				92B4B31D2DB67C09009A0DF1 /* WebSockets Vapor Leaf Demo */,
+				92B4B3472DB69FB3009A0DF1 /* README.md */,
+				92B4B3362DB67E0C009A0DF1 /* Source */,
 				92B4B31C2DB67C09009A0DF1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +64,71 @@
 				92B4B31B2DB67C09009A0DF1 /* WebSockets Vapor Leaf Demo.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		92B4B3362DB67E0C009A0DF1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				92B4B3442DB691FC009A0DF1 /* Extensions */,
+				92B4B33A2DB67E4E009A0DF1 /* Vapor+Leaf */,
+				92B4B3382DB67E33009A0DF1 /* Model */,
+				92B4B3372DB67E25009A0DF1 /* ViewModel */,
+				92B4B3392DB67E3C009A0DF1 /* Views */,
+				92B4B31E2DB67C09009A0DF1 /* WebSockets_Vapor_Leaf_DemoApp.swift */,
+				92B4B3222DB67C0A009A0DF1 /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		92B4B3372DB67E25009A0DF1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				92B4B3332DB67DAE009A0DF1 /* CarShop.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		92B4B3382DB67E33009A0DF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				92B4B32F2DB67D0D009A0DF1 /* Car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		92B4B3392DB67E3C009A0DF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92B4B3202DB67C09009A0DF1 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92B4B33A2DB67E4E009A0DF1 /* Vapor+Leaf */ = {
+			isa = PBXGroup;
+			children = (
+				92B4B3412DB67EBC009A0DF1 /* Views */,
+				92B4B33B2DB67EA0009A0DF1 /* WebServer.swift */,
+				92B4B33C2DB67EA0009A0DF1 /* WebRouteCollection.swift */,
+				92B4B33D2DB67EA0009A0DF1 /* WebSocketManager.swift */,
+			);
+			path = "Vapor+Leaf";
+			sourceTree = "<group>";
+		};
+		92B4B3412DB67EBC009A0DF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				92B4B3422DB67EDD009A0DF1 /* index.leaf */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		92B4B3442DB691FC009A0DF1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				92B4B3452DB69215009A0DF1 /* Car+WebSocket.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,11 +146,10 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				92B4B31D2DB67C09009A0DF1 /* WebSockets Vapor Leaf Demo */,
-			);
 			name = "WebSockets Vapor Leaf Demo";
 			packageProductDependencies = (
+				92B4B32A2DB67C84009A0DF1 /* Vapor */,
+				92B4B32D2DB67CC9009A0DF1 /* Leaf */,
 			);
 			productName = "WebSockets Vapor Leaf Demo";
 			productReference = 92B4B31B2DB67C09009A0DF1 /* WebSockets Vapor Leaf Demo.app */;
@@ -94,6 +179,10 @@
 			);
 			mainGroup = 92B4B3122DB67C09009A0DF1;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				92B4B3292DB67C84009A0DF1 /* XCRemoteSwiftPackageReference "vapor" */,
+				92B4B32C2DB67CC9009A0DF1 /* XCRemoteSwiftPackageReference "leaf" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 92B4B31C2DB67C09009A0DF1 /* Products */;
 			projectDirPath = "";
@@ -109,6 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B4B3432DB67EDD009A0DF1 /* index.leaf in Resources */,
+				92B4B3232DB67C0A009A0DF1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +210,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B4B3342DB67DAE009A0DF1 /* CarShop.swift in Sources */,
+				92B4B3212DB67C09009A0DF1 /* ContentView.swift in Sources */,
+				92B4B31F2DB67C09009A0DF1 /* WebSockets_Vapor_Leaf_DemoApp.swift in Sources */,
+				92B4B33E2DB67EA0009A0DF1 /* WebServer.swift in Sources */,
+				92B4B33F2DB67EA0009A0DF1 /* WebSocketManager.swift in Sources */,
+				92B4B3402DB67EA0009A0DF1 /* WebRouteCollection.swift in Sources */,
+				92B4B3462DB69215009A0DF1 /* Car+WebSocket.swift in Sources */,
+				92B4B3302DB67D0D009A0DF1 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WB7K6HAG43;
@@ -261,6 +361,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -279,6 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WB7K6HAG43;
@@ -289,6 +391,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -324,6 +427,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		92B4B3292DB67C84009A0DF1 /* XCRemoteSwiftPackageReference "vapor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/vapor.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.114.1;
+			};
+		};
+		92B4B32C2DB67CC9009A0DF1 /* XCRemoteSwiftPackageReference "leaf" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/vapor/leaf.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92B4B32A2DB67C84009A0DF1 /* Vapor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92B4B3292DB67C84009A0DF1 /* XCRemoteSwiftPackageReference "vapor" */;
+			productName = Vapor;
+		};
+		92B4B32D2DB67CC9009A0DF1 /* Leaf */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92B4B32C2DB67CC9009A0DF1 /* XCRemoteSwiftPackageReference "leaf" */;
+			productName = Leaf;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 92B4B3132DB67C09009A0DF1 /* Project object */;
 }

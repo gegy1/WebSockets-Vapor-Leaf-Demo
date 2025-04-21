@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <style>
+        body {
+            background-color: black; /* Schwarzer Hintergrund */
+            color: white; /* Weiße Schrift */
+            font-family: Arial, sans-serif; /* Schriftart */
+            margin: 0; /* Entfernt den Standardabstand */
+            padding: 20px; /* Fügt etwas Innenabstand hinzu */
+            text-align: center; /* Zentriert den Text */
+        }
+    </style>
+    <head>
+        <title>Car Price</title>
+    </head>
+    <body>
+        <h1>Car Price</h1>
+        <div>
+            <label for="carPrice">Car Price:</label>
+            <span id="car-#(car.id)">#(car.price)</span>
+        </div>
+
+        <script>
+            // Connect to webSocket
+            const socket = new WebSocket("ws://localhost:8080/ws");
+
+            // Update the value on receiving a message
+            socket.onmessage = function(event) {
+                const data = JSON.parse(event.data);
+                if (data.id && data.price) {
+                    const carPriceElement = document.getElementById(`car-${data.id}`);
+                    if (carPriceElement) {
+                        carPriceElement.innerText = data.price;
+                    }
+                }
+            };
+        </script>
+    </body>
+</html>
